@@ -1,0 +1,24 @@
+body{
+font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.fw{
+    width: 50%;
+}
+
+
+/* // `sm` applies to x-small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+    .fw{
+    width: 95%;
+}
+ }
+
+
+/* // `lg` applies to medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) { 
+    .fw{
+        width: 90%;
+    }
+ }
+
